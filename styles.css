@@ -62,10 +62,7 @@ body {
   display: none;
 }
 #result {
-  position: fixed;
-  top: 10%; 
-  left: 10%;
-  transform: translate(-50%, -50%);
+  position: absolute;
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -75,6 +72,12 @@ body {
   text-align: center;
   padding: 2rem;
 }
+.modal-centered {
+  display: flex;
+  justify-content: center;
+  margin-top: -600px;
+}
+
 #show-time{
   text-align: center;
   color: white;
@@ -93,9 +96,11 @@ body {
 .inactive {
   border: 2px solid white !important;
 }
+
 .hidden {
   display: none;
 }
+
 .title {
   text-align: center;
   color: white;
