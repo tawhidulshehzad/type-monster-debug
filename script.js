@@ -145,19 +145,4 @@ setInterval(() => {
   } seconds`;
 }, 1000);
 
-// // START Countdown
-// startBtn.addEventListener("click", function () {
 
-//   // If history exists, show it
-//   displayHistory();
-
-//   // Show typing time spent
-//   setInterval(() => {
-//     const currentTime = new Date().getTime();
-//     const timeSpent = (currentTime - startTime) / 1000;
-
-//     document.getElementById("show-time").innerHTML = `${
-//       startTime ? timeSpent : 0
-//     } seconds`;
-//   }, 1000);
-// });

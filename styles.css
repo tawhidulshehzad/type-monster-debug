@@ -64,7 +64,6 @@ body {
   display: none;
 }
 .modal-centered {
-  position: fixed;
   height: 100vh;
   width: 100vw;
   top: 0;
@@ -73,8 +72,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 #result {
-  z-index: 1;
+  top: 100px;
+  position: absolute;
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -157,6 +158,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 
 .card {
