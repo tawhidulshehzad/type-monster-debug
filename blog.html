@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  </head>
+  <body class="container">
+    <header class="text-center mt-5 text-decoration-underline">
+      <h1>Blog About JavaScript ES6</h1>
+    </header>
+    <main class="mt-5">
+      <section>
+        <div>
+          <h1>Q1. Differences between local storage and session storage?</h1>
+          <p>
+            <span class="fw-bold">Session storage</span><br>
+            The storage capacity of session storage is 5MB. Once a document has loaded in a browser tab, a distinct page session has been created. There can only be one open tab at a time for page sessions. After the page reloads and restores, the pages are only saved for the duration that the tab or browser is open. In contrast to session cookies, a new session is started each time a tab or window is opened. The same URL opens multiple tabs or windows, each of which creates its own sessionStorage. The sessionStorage from the original tab is copied to the duplicated tab when you duplicate a tab. A window or tab being closed ends the session and deletes all sessionStorage objects.
+          </p>
+          <p>
+            <span class="fw-bold">Local storage</span><br>
+            Local storage has a 5MB/10MB storage capacity. It needs to be deleted using javascript or manually because it is not session-based. Only local storage can be read by the client. No information is sent to the server. Fewer older browsers still support it.
+            Access to the Document's local storage object, which is stored across browser sessions, is provided by this read-only interface property. Similar to sessionStorage, but localStorage data is cleared when the page's session ends, which occurs when the page is closed. A browser's final "private" tab closing clears it (localStorage data for a document loaded in a private browsing or incognito session).
+          </p>
+        </div>
+        <div>
+          <h1>Q2. Differences between Global scope and block scope?</h1>
+          <p>
+            <span class="fw-bold">Global scope</span><br>
+            Global variables are defined outside of any function or curly braces and have a global scope. Global scope denotes that a variable can be accessed from anywhere in the program including any function or conditional state.Using global variables when they are not required is not a good idea because every code block will have access to them.
+          </p>
+          <p>
+            <span class="fw-bold">block scope</span><br>
+            Another subclass of local scope is block scope. The scope of the variables enclosed in curly brackets is known as the block scope. These curly brackets may now be used for conditional statements, loops, or other things. These variables may only be referred to from inside the curly brackets. Consider a nested circumstance a section of code with block variables inside of curly brackets.
+          </p>
+        </div>
+        <div>
+          <h1>Q3. How does the event loop works in javascript?</h1>
+          <p>
+            <span class="fw-bold">Event loop</span><br>
+            Once a document has loaded in a browser tab, a distinct page session has been created. There can only be one open tab at a time for page sessions. After the page reloads and restores, the pages are only saved for the duration that the tab or browser is open. In contrast to session cookies, a new session is started each time a tab or window is opened. The same URL opens multiple tabs or windows, each of which creates its own sessionStorage. The sessionStorage from the original tab is copied to the duplicated tab when you duplicate a tab. A window or tab being closed ends the session and deletes all sessionStorage objects.
+          </p>
+        </div>
+        <div>
+          <h1>Q4. How many ways can we get undefined? </h1>
+          <p>
+            <span class="fw-bold">undefined</span><br>
+            A feature of the global object is undefined. It is a variable with a broad scope, in other words. The fundamental value of undefined is its initial value. Undefined is a non-configurable, non-writable property in all non-legacy browsers. Avoid overriding it even if this isn't the case.Undefined variables are those for which no value has been assigned. If the variable being evaluated has no assigned value, a method or statement will also return undefined. If no value was returned, a function returns undefined.
+          </p>
+          
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
