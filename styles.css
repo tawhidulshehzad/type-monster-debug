@@ -9,11 +9,13 @@ body {
   background-size: cover;
   background-position: left top;
   font-family: "Zilla Slab", serif;
+  
 }
 
 .box-container {
   width: 70%;
   margin: 0 auto;
+  
 }
 
 #question {
@@ -61,8 +63,18 @@ body {
   color: white;
   display: none;
 }
+.modal-centered {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #result {
-  position: absolute;
+  z-index: 1;
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -72,13 +84,8 @@ body {
   text-align: center;
   padding: 2rem;
 }
-.modal-centered {
-  display: flex;
-  justify-content: center;
-  margin-top: -600px;
-}
 
-#show-time{
+#show-time {
   text-align: center;
   color: white;
   margin: 10px 0;
